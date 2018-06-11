@@ -1,0 +1,682 @@
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*----------------INDEX-----------------*/
+.logo{
+  width: 20%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.contenlogo{
+width: 50%;
+  vertical-align: top;
+  /*border: 2px red solid;*/
+}
+.contenmenu{
+  width: 50%;
+  vertical-align: top;
+  /*border: 2px red solid;*/
+}
+.uno{
+  width: 60%;
+ /*border-bottom:  2px red solid;*/
+  /*border: 2px red solid;*/
+  margin-top: 1%;
+  text-align: right;
+}
+.navega{
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color:  #5d6d7e ;
+}
+nav{
+ margin-top: 2%;
+ /*margin-left: 5%;*/
+}
+nav ul{
+ padding: 20px;  
+}
+nav ul a.selector{
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color:  #5d6d7e ;
+}
+nav ul a#select{
+  color: #4F0F10;
+  
+}
+nav ul a.selector:hover{
+  color: #4F0F10;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    height: 550px;
+    background: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+}
+.fondo{
+  width: 100%;
+  height: 550px;
+  background-color: rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.banner .fondo h1{
+  text-align: center;
+  color: #fff;
+  font-size: 95px;
+  margin-top: 10%;
+}
+.banner .fondo p{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+.boton{
+    text-align: center;
+    margin-top: 3%;
+}
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #000;
+}
+
+.btn-danger.btn-outline {
+    color: #fff;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+
+.thumbnail-title {
+  font-size: 20px;
+  margin-top: 5px;
+}
+.img-thumb-bg1 {
+  padding: 0;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  border-radius: 3px;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('../img/uno.jpg');
+}
+
+.img-thumb-bg1 p {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.img-thumb-bg1 .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+.img-thumb-bg1 .caption {
+  bottom: -5px;
+  height: 100px;
+  font-size: 12px;
+  position: absolute;
+  padding: 0 20px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-thumb-bg1 .caption .title {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.img-thumb-bg1 .caption .title a {
+  color: #fff;
+}
+.img-thumb-bg1 .caption .title a:hover {
+  color: #2980B9;
+}
+.img-thumb-bg1:hover .overlay {
+  background: rgba(46, 49, 58, 0.8);
+}
+.img-thumb-bg1:hover .caption {
+  bottom: 60px;
+}
+
+
+
+
+.img-thumb-bg2 {
+  padding: 0;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  border-radius: 3px;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('../img/dos.jpg');
+}
+
+.img-thumb-bg2 p {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.img-thumb-bg2 .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+.img-thumb-bg2 .caption {
+  bottom: -5px;
+  height: 100px;
+  font-size: 12px;
+  position: absolute;
+  padding: 0 20px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-thumb-bg2 .caption .title {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.img-thumb-bg2 .caption .title a {
+  color: #fff;
+}
+.img-thumb-bg2 .caption .title a:hover {
+  color: #2980B9;
+}
+.img-thumb-bg2:hover .overlay {
+  background: rgba(46, 49, 58, 0.8);
+}
+.img-thumb-bg2:hover .caption {
+  bottom: 60px;
+}
+
+
+.img-thumb-bg3 {
+  padding: 0;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  border-radius: 3px;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('../img/tres.jpg');
+}
+
+.img-thumb-bg3 p {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.img-thumb-bg3 .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+.img-thumb-bg3 .caption {
+  bottom: -5px;
+  height: 100px;
+  font-size: 12px;
+  position: absolute;
+  padding: 0 20px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-thumb-bg3 .caption .title {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.img-thumb-bg3 .caption .title a {
+  color: #fff;
+}
+.img-thumb-bg3 .caption .title a:hover {
+  color: #2980B9;
+}
+.img-thumb-bg3:hover .overlay {
+  background: rgba(46, 49, 58, 0.8);
+}
+.img-thumb-bg3:hover .caption {
+  bottom: 60px;
+}
+
+
+.img-thumb-bg4 {
+  padding: 0;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  border-radius: 3px;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('../img/cuatro.jpg');
+}
+
+.img-thumb-bg4 p {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.img-thumb-bg4 .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+.img-thumb-bg4 .caption {
+  bottom: -5px;
+  height: 100px;
+  font-size: 12px;
+  position: absolute;
+  padding: 0 20px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-thumb-bg4 .caption .title {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.img-thumb-bg4 .caption .title a {
+  color: #fff;
+}
+.img-thumb-bg4 .caption .title a:hover {
+  color: #2980B9;
+}
+.img-thumb-bg4:hover .overlay {
+  background: rgba(46, 49, 58, 0.8);
+}
+.img-thumb-bg4:hover .caption {
+  bottom: 60px;
+}
+
+
+.img-thumb-bg5 {
+  padding: 0;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  border-radius: 3px;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('../img/cinco.jpg');
+}
+
+.img-thumb-bg5 p {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.img-thumb-bg5 .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+.img-thumb-bg5 .caption {
+  bottom: -5px;
+  height: 100px;
+  font-size: 12px;
+  position: absolute;
+  padding: 0 20px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-thumb-bg5 .caption .title {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.img-thumb-bg5 .caption .title a {
+  color: #fff;
+}
+.img-thumb-bg5 .caption .title a:hover {
+  color: #2980B9;
+}
+.img-thumb-bg5:hover .overlay {
+  background: rgba(46, 49, 58, 0.8);
+}
+.img-thumb-bg5:hover .caption {
+  bottom: 60px;
+}
+
+
+.img-thumb-bg6 {
+  padding: 0;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  border-radius: 3px;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('../img/seis.jpg');
+}
+
+.img-thumb-bg6 p {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.img-thumb-bg6 .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+.img-thumb-bg6 .caption {
+  bottom: -5px;
+  height: 100px;
+  font-size: 12px;
+  position: absolute;
+  padding: 0 20px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-thumb-bg6 .caption .title {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.img-thumb-bg6 .caption .title a {
+  color: #fff;
+}
+.img-thumb-bg6 .caption .title a:hover {
+  color: #2980B9;
+}
+.img-thumb-bg6:hover .overlay {
+  background: rgba(46, 49, 58, 0.8);
+}
+.img-thumb-bg6:hover .caption {
+  bottom: 60px;
+}
+
+
+
+
+.img-thumb-bg {
+  padding: 0;
+  overflow: hidden;
+  min-height: 200px;
+  position: relative;
+  border-radius: 3px;
+  background-position: center;
+  background-color: transparent;
+  background-image: url('http://projects.mostlikers.com/_images/estate-image.jpg');
+}
+.img-thumb-bg p {
+  color: #fff;
+  margin-bottom: 0;
+  line-height: 16px;
+}
+.img-thumb-bg .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+.img-thumb-bg .caption {
+  bottom: -5px;
+  height: 100px;
+  font-size: 12px;
+  position: absolute;
+  padding: 0 20px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-thumb-bg .caption .title {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.img-thumb-bg .caption .title a {
+  color: #fff;
+}
+.img-thumb-bg .caption .title a:hover {
+  color: #2980B9;
+}
+.img-thumb-bg .caption .meta-data {
+  color: #777;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 15px;
+}
+.img-thumb-bg .caption .meta-data a {
+  color: #777;
+}
+.img-thumb-bg .caption .meta-data a .fa {
+  color: #2980B9;
+}
+.img-thumb-bg .caption .meta-data a:hover {
+  color: #2980B9;
+}
+.img-thumb-bg .caption .content {
+  display: none;
+}
+.img-thumb-bg:hover .overlay {
+  background: rgba(46, 49, 58, 0.8);
+}
+.img-thumb-bg:hover .caption {
+  bottom: 60px;
+}
+.img-thumb-bg:hover .caption .content {
+  display: block;
+}
+.texto{
+  font-size: 17px;
+}
+
+/*.............FOOTER--------------*/
+footer{
+	background: #4F0F10;
+	font-family: 'Oswald', sans-serif;
+	height: 100px;
+	/*font-size: 20px;*/
+	overflow: hidden;
+	clear: both;
+}
+footer p{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 3%;
+	color: #fff;
+}
+/*------------------nosotros--------------*/
+.bannern {
+    width: 100%;
+    position: relative;
+    height: 550px;
+    background: url('../img/bannern.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+}
+.fondon{
+  width: 100%;
+  height: 550px;
+  background-color: rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.bannern .fondon h1{
+  text-align: center;
+  color: #fff;
+  font-size: 55px;
+  margin-top: 10%;
+}
+.bannern .fondon p{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.card-base > .card-icon {
+        text-align: center;
+        position: relative;
+    }
+
+.imagecard { 
+    z-index: 2;
+    display: block;
+    position: relative;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 0 auto;
+    color: white;
+}
+.card-base > .card-icon > .card-data {
+    min-height: 150px !important;
+    margin-top: -24px;
+    background: ghostwhite;
+    border: 1px solid #e0e0e0;
+    padding: 15px 0 10px 0;
+     box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    min-height: 215px;
+    }
+    #widgetCardIcon {
+        background: #4F0F10 !important;
+        font-size: 28px;
+        line-height: 78px;
+    }
+
+
+/*------------------servicios--------------*/
+
+/*--------------------contacto-----------------*/
