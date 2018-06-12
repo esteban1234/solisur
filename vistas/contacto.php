@@ -2,127 +2,136 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
-  <div style="padding: 1% 0%; overflow: hidden;">
-    <nav class="pull-left">
-      <ul>
-        <a class="selector" href="../index.php">INICIO</a>
-        <a class="selector" href="nosotros.php">NOSOTROS</a>
-        <a class="selector" href="servicios.php">SERVICIOS</a>
-        <a class="selector" id="select" href="contacto.php"><i class="fas fa-phone-volume"></i> CONTACTO</a>
-      </ul>
-    </nav>
+  <div class="contenlogo pull-left">
+    <figure class="logo">
+       <img src="../img/solisur.png" alt="SOLISUR" class="img-responsive"> 
+      </figure>
+  </div>
 
-    <div class="logo pull-right">
-      <img src="../img/diseno.png" class="img-responsive" alt="DISEÑO">
+  <div class="pull-right contenmenu">
+    <div class="uno">
+      <a class="navega" href=""><i class="fab fa-facebook-f"></i></a>
+      <a class="navega" href=""><i class="fab fa-twitter"></i></a>
+      <a class="navega" href=""><i class="fab fa-google-plus-g"></i></a>
+      <a class="navega" href=""><i class="fas fa-at"></i></a>
+      <a class="navega" href=""><i class="fab fa-linkedin-in"></i></a>
     </div>
-
-    <div class="openclose">
-          <i class="fa fa-bars open" aria-hidden="true"></i>
-        </div> 
+    <div class="dos">
+      <nav>
+        <ul>
+          <a class="selector" href="../index.php">INICIO</a>
+          <a class="selector" href="nosotros.php">NOSOTROS</a>
+          <a class="selector" href="servicios.php">SERVICIOS</a>
+          <a class="selector" id="select" href="contacto.php">CONTACTO</a>
+        </ul>
+      </nav>
+    </div>
   </div>
 
-<div class="banner4">
-  <div class="fondo4">
-    <h1 class="tit-cont">CONTACTO</h1>
+  <div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.1401390225212!2d-89.60369457083503!3d21.01024095106897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676c62417390b%3A0x799c11a4abfb3ce7!2s10-a+204%2C+Residencial+Col+Mexico%2C+97125+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1528842053275" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
-</div>
-<div class="mapa">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7717449439256!2d-89.63899298589182!3d21.04181278599131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674324d07e755%3A0x81ce9c86252e886a!2sCalle+39%E1%B4%AE+225%2C+Zona+Industrial%2C+97180+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1528220494912" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
 
-<div class="section" style="padding: 5% 0%;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center tit-dc">Datos de Contacto</h1>
-            <p class="text-center">DISEÑO E INGENIERIA DEL CENTRO S.A.P.I. de C.V.</p>
-          </div>
-        </div> <br><br>
-        <div class="row">
-          <div class="col-sm-2 col-md-2 cont-ico" style="text-align: right;">
-            <!-- <div class="iconos"> -->
-              <span class="fa-stack fa-4x cont-i">
-                <i class="fa fa-circle fa-stack-2x ii"></i>
-                <i class="fas fa-map-marker-alt fa-stack-1x fa-inverse iii"></i>
-              </span>
-            <!-- </div> -->
-          </div>
-          <div class="col-sm-4 col-md-4">
-            <h3 class="text-left tit-dthc">Dirección</h3>
-            <p class="text-left txt-dthc">C. 39B #225 por 32A y 32 Col. La Castellana, Mérida, Yucatan. C.P 97203</p>
-          </div>
-          <div class="col-sm-2 col-md-2 cont-ico" style="text-align: right;">
-            <!-- <div class="iconos"> -->
-              <span class="fa-stack fa-4x cont-i">
-                <i class="fa fa-circle fa-stack-2x ii"></i>
-                <i class="fas fa-phone-volume fa-stack-1x fa-inverse iii"></i>
-              </span>
-            <!-- </div> -->
-          </div>
-          <div class="col-sm-4 col-md-4">
-            <h3 class="text-left tit-dthc">Teléfono</h3>
-            <p class="text-left txt-dthc">PENDIENTE</p>
-          </div>
-        </div> <br><br>
-        <div class="row">
-          <div class="col-sm-2 col-md-2 cont-ico" style="text-align: right;">
-            <!-- <div class="iconos"> -->
-              <span class="fa-stack fa-4x cont-i">
-                <i class="fa fa-circle fa-stack-2x ii"></i>
-                <i class="fas fa-clock fa-stack-1x fa-inverse iii"></i>
-              </span>
-            <!-- </div> -->
-          </div>
-          <div class="col-sm-4 col-md-4">
-            <h3 class="text-left tit-dthc">Horario</h3>
-            <p class="text-left txt-dthc">Lunes a Viernes de 9 am a 6 pm.</p>
-          </div>
-          <div class="col-sm-2 col-md-2 cont-ico" style="text-align: right;">
-            <!-- <div class="iconos"> -->
-              <span class="fa-stack fa-4x">
-                <i class="fa fa-circle fa-stack-2x ii"></i>
-                <i class="fas fa-envelope fa-stack-1x fa-inverse iii"></i>
-              </span>
-            <!-- </div> -->
-          </div>
-          <div class="col-sm-4 col-md-4 text-center">
-            <h3 class="text-left tit-dthc">Correo</h3>
-            <p class="text-left txt-dthc">info@disenoeingenieriadelcentro.com</p>
-          </div>
+  <div class="container" style="padding: 5% 0%;">
+  <div class="col-m-12 text-center">
+    <h2 style="color: #4F0F10;">Formulario de Contacto</h2> <br><br>
+  </div>
+  <div class="col-sm-12 custom-box">
+      <div class="col-md-6 col-md-offset-3">
+       <div class="well form-well">
+        <div class="well form-well">
+          <legend class=" text-center" style="color: #4F0F10;">Contactanos</legend>
+          <form>
+            <div class="group">
+              <input required="" type="text">
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Nombre</label>
+            </div>
+
+            <div class="group">
+              <input required="" type="text">
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Correo</label>
+            </div>
+
+            <div class="group">
+              <input required="" type="text">
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Teléfono</label>
+            </div>
+
+            <div class="group">
+              <textarea type="text" rows="5" required=""></textarea>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label>Comentario</label>
+            </div>
+            <div class="group">
+              <center> <button type="submit" class="btn btn-danger">Enviar <span class="glyphicon glyphicon-send"></span></button></center>
+            </div>
+          </form>
         </div>
+
       </div>
     </div>
+  </div>
+</div>
 
-<div class="inner contact">
+<div class="container" style="padding: 0% 0% 5% 0%;">
+<div class = "row">
+    <div class = "col-md-3">
+        <div class="card-base">
+        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-map-marker-alt"></span></a>
+        <div class="card-data widgetCardData">
+        <h2 class="box-title" style="color: #bb7824;">DIRECCION</h2>
+        <p class="card-block text-center">C. 10A #203 POR 1H Y 0 COL. MEXICO NORTE, MERIDA, YUCATAN. C.P. 97128</p>
+        </div>
+        </div>
+        <div class="space"></div>
+        </div>
+    </div>
 
-                <div class="contact-form">
-                  
-                    <form id="contact-us" method="post" action="#" onSubmit="return false">
+    <div class = "col-md-3">
+        <div class="card-base">
+        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="far fa-clock"></span></a>
+        <div class="card-data widgetCardData">
+        <h2 class="box-title" style="color: #bb7824;">HORARIO</h2>
+        <p class="card-block text-center">Lunes a Viernes de 9 am a 6 pm</p>
+        </div>
+        </div>
+        <div class="space"></div>
+        </div>
+    </div>
 
-                        <div class="col-xs-12 col-sm-6 col-md-6 wow animated slideInLeft" data-wow-delay=".5s">
-                
-                            <input type="text" name="name" id="txtNOMBRE" required="required" class="form" placeholder="Nombre" />
+    <div class = "col-md-3">
+        <div class="card-base">
+        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-phone"></span></a>
+        <div class="card-data widgetCardData">
+        <h2 class="box-title" style="color: #bb7824;">TELEFONO</h2>
+        <p class="card-block text-center">PENDIENTE</p>
+        </div>
+        </div>
+        <div class="space"></div>
+        </div>
+    </div>
 
-                            <input type="email" name="mail" id="txtCORREO" required="required" class="form" placeholder="Correo" />
-
-                            <input type="tel" name="subject" id="txtTELEFONO" required="required" class="form" placeholder="Teléfono" />
-                        </div>
-                      
-                        <div class="col-xs-12 col-sm-6 col-md-6 wow animated slideInRight" data-wow-delay=".5s">
-                           
-                            <textarea name="message" id="txtCOMENTARIO" class="form textarea"  placeholder="Comentario"></textarea>
-                        </div>
-                        
-                        <div class="relative fullwidth col-xs-12">
-                            <div id="_AJAX_PRE_"></div>
-                            <button type="submit" id="submit" name="submit" class="form-btn semibold" onclick="sendCORREO()">Enviar</button> 
-                        </div>
-                     
-                        <div class="clear"></div>
-                    </form>
-
-                </div>
-            </div>
+    <div class = "col-md-3">
+        <div class="card-base">
+        <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-envelope"></span></a>
+        <div class="card-data widgetCardData">
+        <h2 class="box-title" style="color: #bb7824;">CORREO</h2>
+        <p class="card-block text-center">info@corporativosolisur.com</p>
+        </div>
+        </div>
+        <div class="space"></div>
+        </div>
+    </div>
+</div>
+  
+</div>
 
 	
 <?php include 'pie.php' ?>

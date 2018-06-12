@@ -33,7 +33,7 @@
       <h1>SOMOS UN DESPACHO DE ABOGADOS CON AMPLIA EXPERIENCIA</h1>
       <!-- <p>EL EQUIPO DE ABOGADOS QUE SÍ LO RESPALDA</p> -->
       <div class="boton ">
-      <a href="vistas/contacto.php" class="btn btn-danger btn-outline btn-lg">SOLICITAR INFORMACION</a>
+      <a href="contacto.php" class="btn btn-danger btn-outline btn-lg">SOLICITAR INFORMACION</a>
   </div>
     </div>
   </div>
@@ -44,7 +44,7 @@
         <div class="card-base">
         <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="glyphicon glyphicon-user"></span></a>
         <div class="card-data widgetCardData">
-        <h2 class="box-title" style="color: #bb7824;">Atención personalizada.</h2>
+        <h2 class="box-title" style="color: #bb7824;">Atención personalizada</h2>
         <p class="card-block text-center">SERIEDAD ABSOLUTA</p>
         </div>
         </div>
@@ -68,7 +68,7 @@
         <div class="card-base">
         <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-shield-alt"></span></a>
         <div class="card-data widgetCardData">
-        <h2 class="box-title" style="color: #bb7824;">Protegemos tus Derechos.</h2>
+        <h2 class="box-title" style="color: #bb7824;">Protegemos tus Derechos</h2>
         <p class="card-block text-center">TU FAMILIA Y TU PATRIMONIO</p>
         </div>
         </div>
@@ -78,6 +78,46 @@
 </div>
   
 </div>
+
+<div class="section" style="padding: 5% 0%; background: #e4e4e4;">
+    <div class="container" >
+     <div class="row">
+       <h1 class="text-center" style="color: #4F0F10;">La Firma</h1> <br> <br>
+       <p class="text-center texto" >
+
+        Ofrecemos servicios jurídicos de excelencia en defensa legal (litigio), asesoría y consultoría jurídica, elaboración de contratos nacionales o internacionales, gestiones ante distintas dependencias de gobierno, mecanismos alternativos de solución de controversias, procedimientos concursales, migratorios, de propiedad industrial, entre otros.
+</p>
+
+<!-- <div class="boton ">
+      <a href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg">SOLICITAR INFORMACION</a>
+  </div> -->
+     </div>
+   </div>
+ </div>
+
+ <div class="section" style="padding: 5% 0%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="../img/derecho.jpg" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <!-- <h1>A title</h1> -->
+            <!-- <h3>A subtitle</h3> -->
+            <p class="texto2"><b>Misión:</b> Contribuir al desarrollo de nuestra empresa en beneficio de nuestros clientes, adaptándonos a las innovaciones en el mercado e ir por el camino de la creación de más y mejores empresas, al apoyar las iniciativas de emprendedores para crear nuevos negocios. <br><br>
+            
+            <b>Visión:</b> Convertirnos en un referente de consultoría acompañando el proceso de transformación de las empresas a la nueva economía, tanto en la creación de formas innovadoras de comunicarse con sus clientes como en mejorar la dinámica de sus procesos operacionales. <br><br>
+
+            </p>
+            <div class="boton ">
+      <a href="contacto.php" class="btn btn-warning btn-outline btn-lg">SOLICITAR INFORMACION</a>
+  </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
 
 
 <?php include 'pie.php' ?>
