@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
+<script>
+  var nav4 = window.Event ? true : false;
+  function aceptNum(evt){
+    var key = nav4 ? evt.which : evt.keyCode;
+    return (key <= 13 || (key>= 48 && key <= 57));
+}
+</script>
 <body>
+  <div id="capa1"></div>
+  <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+  </div>  
 
   <div class="contenlogo pull-left">
     <figure class="logo">
@@ -43,34 +54,36 @@
           <legend class=" text-center" style="color: #4F0F10;">Contactanos</legend>
           <form>
             <div class="group">
-              <input required="" type="text">
+              <input required="" type="text" id="txtNOMBRE">
               <span class="highlight"></span>
               <span class="bar"></span>
               <label>Nombre</label>
             </div>
 
             <div class="group">
-              <input required="" type="text">
+              <input required="" type="text" id="txtCORREO">
               <span class="highlight"></span>
               <span class="bar"></span>
               <label>Correo</label>
             </div>
 
             <div class="group">
-              <input required="" type="text">
+              <input type="text" id="txtTELEFONO" onkeypress="return aceptNum(event)" maxlength="10" required="">
               <span class="highlight"></span>
               <span class="bar"></span>
               <label>Teléfono</label>
             </div>
 
             <div class="group">
-              <textarea type="text" rows="5" required=""></textarea>
+              <textarea type="text" rows="5" required="" id="txtCOMENTARIO"></textarea>
               <span class="highlight"></span>
               <span class="bar"></span>
               <label>Comentario</label>
             </div>
+
+            <div id="_AJAX_PRE_"></div>
             <div class="group">
-              <center> <button type="submit" class="btn btn-danger">Enviar <span class="glyphicon glyphicon-send"></span></button></center>
+              <center> <button type="submit" class="btn btn-danger" onclick="sendCORREO()">Enviar <span class="glyphicon glyphicon-send"></span></button></center>
             </div>
           </form>
         </div>
@@ -82,7 +95,7 @@
 
 <div class="container" style="padding: 0% 0% 5% 0%;">
 <div class = "row">
-    <div class = "col-md-3">
+    <div class = "col-sm-6 col-md-3">
         <div class="card-base">
         <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-map-marker-alt"></span></a>
         <div class="card-data widgetCardData">
@@ -94,7 +107,7 @@
         </div>
     </div>
 
-    <div class = "col-md-3">
+    <div class = "col-sm-6 col-md-3">
         <div class="card-base">
         <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="far fa-clock"></span></a>
         <div class="card-data widgetCardData">
@@ -106,7 +119,7 @@
         </div>
     </div>
 
-    <div class = "col-md-3">
+    <div class = "col-sm-6 col-md-3">
         <div class="card-base">
         <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-phone"></span></a>
         <div class="card-data widgetCardData">
@@ -118,7 +131,7 @@
         </div>
     </div>
 
-    <div class = "col-md-3">
+    <div class = "col-sm-6 col-md-3">
         <div class="card-base">
         <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-envelope"></span></a>
         <div class="card-data widgetCardData">

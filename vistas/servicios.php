@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
-	
+  <div id="capa1"></div>
+	<div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+  </div>  
 	<div class="contenlogo pull-left">
     <figure class="logo">
        <img src="../img/solisur.png" alt="SOLISUR" class="img-responsive"> 
@@ -39,7 +42,7 @@
   </div>
 
   <div class="container" style="padding: 5% 0%;">
-    <h1 class="text-center" style="color: #4F0F10;">Servicios</h1> <br> <br>
+    <h1 class="text-center tit-s" style="color: #4F0F10;">Servicios</h1> <br> <br class="delete-br">
   <div class="row">
 
       <div class="col-sx-12 col-sm-6 col-lg-6">
@@ -47,7 +50,7 @@
         <div class="icon">
           <div class="image"><i class="far fa-building fa-3x"></i></div>
           <div class="info">
-            <h3 class="title">Corporativo y TICS</h3>
+            <h3 class="title title-ser">Corporativo y TICS</h3>
             <p>
               
               <i class="fas fa-check"></i> Asistencia integral en temas de derecho societario y corporativo.<br>
@@ -85,7 +88,7 @@
         <div class="icon">
             <div class="image"><i class="fas fa-book fa-3x"></i></div>
           <div class="info">
-              <h3 class="title">Proyectos</h3>
+              <h3 class="title title-ser">Proyectos</h3>
             <p>
               <i class="fas fa-check"></i> Representación en licitaciones, concursos de méritos y otros procesos de selección.<br>
 
@@ -103,7 +106,7 @@
       </div> 
     </div>
   </div>
-</div> <br><br>
+</div> <br class="delete-br"><br class="delete-br">
 
 <div class="row">
 
@@ -112,7 +115,7 @@
         <div class="icon">
           <div class="image"><i class="fas fa-users fa-3x"></i></div>
           <div class="info">
-            <h3 class="title">Familia</h3>
+            <h3 class="title title-ser">Familia</h3>
             <p>
               <i class="fas fa-check"></i> Planeación patrimonial.<br>
 
@@ -135,7 +138,7 @@
         <div class="icon">
             <div class="image"><i class="fas fa-futbol fa-3x"></i></div>
           <div class="info">
-              <h3 class="title">Deportes y Entretenimiento</h3>
+              <h3 class="title title-ser">Deportes y Entretenimiento</h3>
             <p>
               
               <i class="fas fa-check"></i> Contratos comerciales y de patrocinio.<br>
@@ -152,7 +155,7 @@
       </div> 
     </div>
   </div>
-</div> <br><br>
+</div> <br class="delete-br"><br class="delete-br">
 
 <div class="row">
       <div class="col-sx-12 col-sm-6 col-lg-6">
@@ -160,7 +163,7 @@
         <div class="icon">
           <div class="image"><i class="fas fa-gavel fa-3x"></i></div>
           <div class="info">
-            <h3 class="title">Resolución de Conflictos</h3>
+            <h3 class="title title-ser">Resolución de Conflictos</h3>
             <p>
               
               <i class="fas fa-check"></i> Litigios civiles, comerciales y administrativos. <br>
@@ -187,7 +190,7 @@
         <div class="icon">
             <div class="image"><i class="fas fa-balance-scale fa-3x"></i></div>
           <div class="info">
-              <h3 class="title">Tributario</h3>
+              <h3 class="title title-ser">Tributario</h3>
             <p>
               
             <i class="fas fa-check"></i> Asesoría en la planeación tributaria de la empresa y diseño de su estructura impositiva;<br>

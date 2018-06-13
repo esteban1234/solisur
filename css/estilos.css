@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.openclose{
+  display: none;
+}
+
 /*----------------INDEX-----------------*/
 .logo{
   width: 20%;

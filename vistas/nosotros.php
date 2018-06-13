@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
-
+  <div id="capa1"></div>
+<div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+  </div>  
 <div class="contenlogo pull-left">
     <figure class="logo">
        <img src="../img/solisur.png" alt="SOLISUR" class="img-responsive"> 
@@ -40,7 +43,7 @@
 
   <div class="container" style="padding: 5% 0%;">
 <div class = "row">
-    <div class = "col-md-4">
+    <div class = "col-sm-4 col-md-4">
         <div class="card-base">
         <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="glyphicon glyphicon-user"></span></a>
         <div class="card-data widgetCardData">
@@ -52,7 +55,7 @@
         </div>
     </div>
 
-    <div class = "col-md-4">
+    <div class = "col-sm-4 col-md-4">
         <div class="card-base">
         <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-balance-scale"></span></a>
         <div class="card-data widgetCardData">
@@ -64,7 +67,7 @@
         </div>
     </div>
 
-    <div class = "col-md-4">
+    <div class = "col-sm-4 col-md-4">
         <div class="card-base">
         <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fas fa-shield-alt"></span></a>
         <div class="card-data widgetCardData">
@@ -82,7 +85,7 @@
 <div class="section" style="padding: 5% 0%; background: #e4e4e4;">
     <div class="container" >
      <div class="row">
-       <h1 class="text-center" style="color: #4F0F10;">La Firma</h1> <br> <br>
+       <h1 class="text-center" style="color: #4F0F10;">La Firma</h1> <br class="delete-br"> <br class="delete-br">
        <p class="text-center texto" >
 
         Ofrecemos servicios jurídicos de excelencia en defensa legal (litigio), asesoría y consultoría jurídica, elaboración de contratos nacionales o internacionales, gestiones ante distintas dependencias de gobierno, mecanismos alternativos de solución de controversias, procedimientos concursales, migratorios, de propiedad industrial, entre otros.
@@ -98,10 +101,10 @@
  <div class="section" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="../img/derecho.jpg" class="img-responsive">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <img src="../img/derecho.jpg" class="img-responsive img-res">
           </div>
-          <div class="col-md-6">
+          <div class="col-xs-12 col-sm-6 col-md-6">
             <!-- <h1>A title</h1> -->
             <!-- <h3>A subtitle</h3> -->
             <p class="texto2"><b>Misión:</b> Contribuir al desarrollo de nuestra empresa en beneficio de nuestros clientes, adaptándonos a las innovaciones en el mercado e ir por el camino de la creación de más y mejores empresas, al apoyar las iniciativas de emprendedores para crear nuevos negocios. <br><br>

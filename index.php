@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <?php include 'vistas/encabezado.php' ?>
 <body >
+  <div id="capa1"></div>
+  <div class="openclose">
+      <i class="fa fa-bars open" aria-hidden="true"></i>
+  </div>  
 
 	<div class="contenlogo pull-left">
     <figure class="logo">
@@ -39,8 +43,8 @@
   </div>
 
   <div class="container" style="padding: 5% 0%;">
-    <div class="row">
-      <h1 class="text-center" style="color: #4F0F10;">SECTORES ESTRATÉGICOS</h1>
+    <div class="row row-se">
+      <h1 class="text-center tit-se" style="color: #4F0F10;">SECTORES ESTRATÉGICOS</h1>
     </div> <br><br>
 
   <div class="row">
@@ -48,15 +52,7 @@
            <div class="thumbnail img-thumb-bg1">
                <div class="overlay"></div>
                <div class="caption">
-                   
                    <div class="title"><a href="#">FINANCIERO</a></div>
-                   <!-- <div class="clearfix">
-                       <span class="meta-data">By <a href="">Admin</a>on 29/06/2016</span>
-                       <span class="meta-data pull-right"><a href=""><i class="fa fa-heart-o"></i> 4</a></span>
-                   </div> -->
-                   <!-- <div class="content">
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
-                   </div> -->
                </div>
            </div>
         </div>
@@ -64,15 +60,7 @@
            <div class="thumbnail img-thumb-bg2">
                <div class="overlay"></div>
                <div class="caption">
-                   
                    <div class="title"><a href="#">ENERGIA E INFRAESTRUCTURA</a></div>
-                   <!-- <div class="clearfix">
-                       <span class="meta-data">By <a href="">Admin</a>on 29/06/2016</span>
-                       <span class="meta-data pull-right"><a href=""><i class="fa fa-heart-o"></i> 4</a></span>
-                   </div> -->
-                   <!-- <div class="content">
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
-                   </div> -->
                </div>
            </div>
         </div>
@@ -80,15 +68,7 @@
            <div class="thumbnail img-thumb-bg3">
                <div class="overlay"></div>
                <div class="caption">
-                   
                    <div class="title"><a href="#">CAPITAL PRIVADO</a></div>
-                   <!-- <div class="clearfix">
-                       <span class="meta-data">By <a href="">Admin</a>on 29/06/2016</span>
-                       <span class="meta-data pull-right"><a href=""><i class="fa fa-heart-o"></i> 4</a></span>
-                   </div> -->
-                   <!-- <div class="content">
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
-                   </div> -->
                </div>
            </div>
         </div>
@@ -96,15 +76,7 @@
            <div class="thumbnail img-thumb-bg4">
                <div class="overlay"></div>
                <div class="caption">
-                   
                    <div class="title"><a href="#">INMOBILIARIO</a></div>
-                   <!-- <div class="clearfix">
-                       <span class="meta-data">By <a href="">Admin</a>on 29/06/2016</span>
-                       <span class="meta-data pull-right"><a href=""><i class="fa fa-heart-o"></i> 4</a></span>
-                   </div> -->
-                   <!-- <div class="content">
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
-                   </div> -->
                </div>
            </div>
         </div>
@@ -112,15 +84,7 @@
            <div class="thumbnail img-thumb-bg5">
                <div class="overlay"></div>
                <div class="caption">
-                   
                    <div class="title"><a href="#">INDUSTRIAS REGULADAS</a></div>
-                   <!-- <div class="clearfix">
-                       <span class="meta-data">By <a href="">Admin</a>on 29/06/2016</span>
-                       <span class="meta-data pull-right"><a href=""><i class="fa fa-heart-o"></i> 4</a></span>
-                   </div> -->
-                   <!-- <div class="content">
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
-                   </div> -->
                </div>
            </div>
         </div>
@@ -128,15 +92,7 @@
            <div class="thumbnail img-thumb-bg6">
                <div class="overlay"></div>
                <div class="caption">
-                   
                    <div class="title"><a href="#">TELECOMUNICACIONES</a></div>
-                   <!-- <div class="clearfix">
-                       <span class="meta-data">By <a href="">Admin</a>on 29/06/2016</span>
-                       <span class="meta-data pull-right"><a href=""><i class="fa fa-heart-o"></i> 4</a></span>
-                   </div> -->
-                   <!-- <div class="content">
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nulla porro qui quo expedita voluptas ab iure dolore.</p>
-                   </div> -->
                </div>
            </div>
         </div>
@@ -148,16 +104,16 @@
  <div class="section" style="padding: 5% 0%; background: #e4e4e4;">
     <div class="container" >
      <div class="row">
-       <h1 class="text-center" style="color: #4F0F10;">La Firma</h1> <br> <br>
+       <h1 class="text-center tit-f" style="color: #4F0F10;">La Firma</h1> <br> <br class="delete-br">
        <p class="text-center texto" >
 
         COORPORATIVO SOLISUR es un despacho jurídico, el cual ha ganado una posición de liderazgo en litigio y es reconocido por el alto índice de éxito en los juicios que representa, así como por la ética profesional de sus miembros y el trato cercano y personalizado que ofrece a sus clientes. <br><br>
         La estructura de la firma le permite seguir procedimientos judiciales en toda la República Mexicana así como en el extranjero, gracias a las sólidas alianzas estratégicas que ha construido principalmente en E.U.A., Canadá y Latinoamérica.
 </p>
 
-<div class="boton ">
+    <div class="boton btn-delete">
       <a href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg">SOLICITAR INFORMACION</a>
-  </div>
+    </div>
      </div>
    </div>
  </div>
